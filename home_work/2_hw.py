@@ -12,11 +12,6 @@ print(list)
 print(bool)
 
 #Задача 2
-def add_numbers(a:int, b:int) -> int:
-    return a+b
-
-print(add_numbers(1, 1))
-
 
 a: list = [1, 2, 3, 5, 8, 13, 21]
 
