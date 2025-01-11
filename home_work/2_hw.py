@@ -1,4 +1,8 @@
 #Задача 1
+
+def task_1(a, b, c, d, e):
+    return int, float, str, list, bool
+
 a: int = 1
 b: float = 0,1
 c: str = 'homework'
@@ -13,16 +17,16 @@ print(bool)
 
 #Задача 2
 
+def task_2 (a):
+    return a[0:3]
+
 a: list = [1, 2, 3, 5, 8, 13, 21]
 
 print('a[0:3] = ', a[0:3])
 
 #Задача 3
-def square_number(a:int) -> int:
+def task_3(a:int) -> int:
     return a**2
-print(square_number(a=4))
 
-def pow(x: int, y: int) -> int:
-    return x**y
+print(task_3(a=4))
 
-print(pow(3,2))
