@@ -14,12 +14,12 @@ task_1(int, float, str, list, bool)
 
 #Задача 2
 
-def task_2 (a:list):
+def task_2(a:list):
     return a[0:3]
 
 a = [1, 2, 3, 5, 8, 13, 21]
 
-print(a[0:3])
+print(task_2(a))
 
 #Задача 3
 def task_3(a:int) -> int:
