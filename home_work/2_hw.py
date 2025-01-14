@@ -2,7 +2,7 @@
 
 def task_1(a, b, c, d, e):
     a: int = 1
-    b: float = 0,1
+    b: float = 0.1
     c: str = 'homework'
     d: list = [1, 2 , 3 , 4, 5]
     e: bool = True
