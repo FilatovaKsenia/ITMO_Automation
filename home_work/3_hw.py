@@ -12,12 +12,12 @@ larger_number(3, 6)
 #Задача 3
 
 def difference(a, b):
-    if (a - b) ==135 or (b - a) ==135 or (a - b) ==-135 or (b - a) ==-135:
+    if abs(a - b) ==135:
         print('YES')
     else:
         print('NO')
 
-difference(136, 1111)
+difference(136, 1)
 
 #Задача 4
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -29,10 +29,12 @@ def season(month):
         print('ВЕСНА')
     elif month in range(6,9):
         print('ЛЕТО')
-    else:
+    elif month in range(9,12):
         print('ОСЕНЬ')
+    else:
+        print('Введите домустимое значение')
 
-season(6)
+season(0)
 
 #Задача 5
 def number(a, b, c):
